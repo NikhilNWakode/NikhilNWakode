@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nikhilnwakode" alt="nikhilnwakode" /></a> </p>
 
-- 🔭 I’m currently working on [CodeTradeHub](https://github.com/NikhilNWakode/CodeTradeHub)
+
 
 - 🌱 I’m currently learning **Nextjs**
 
