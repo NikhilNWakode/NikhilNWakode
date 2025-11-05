@@ -7,9 +7,6 @@
 
 
 
-- 🌱 I’m currently learning **Nextjs**
-
-- 👨‍💻 All of my projects are available at [https://nikhilwakode-portfolio.vercel.app/](https://nikhilwakode-portfolio.vercel.app/)
 
 - 💬 Ask me about **Mern Stack**
 
