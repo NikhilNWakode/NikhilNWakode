@@ -1,29 +1,271 @@
-<h1 align="center">Hi 👋, I'm Nikhil Wakode</h1>
-<h3 align="center">A passionate full-stack developer from India</h3>
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nikhilnwakode&label=Profile%20views&color=0e75b6&style=flat" alt="nikhilnwakode" /> </p>
+# Hey, I'm Nikhil 👋
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nikhilnwakode" alt="nikhilnwakode" /></a> </p>
+### AI Engineer · Full-Stack Builder · Problem Solver
+
+**I build AI-powered products and the systems behind them.**
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NikhilNWakode)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wakode333nikhil@gmail.com)
+
+</div>
+
+---
+
+## 🧠 About Me
+
+I'm a Computer Science engineer who enjoys turning **ambiguous ideas
+into working systems**.
+
+My work sits at the intersection of:
+
+**AI Engineering · Backend Systems · Full-Stack Development**
+
+I'm particularly interested in **LLMs, RAG, multimodal AI, retrieval,
+evaluation, backend systems, and developer-focused products.**
+
+I learn by building — going beyond APIs and abstractions to understand
+**why systems work, where they fail, and how to make them better.**
+
+---
+
+# 🚀 Featured Work
+
+## 🩻 MedVisionAI
+
+### Multimodal AI + Hybrid RAG
+
+<a href="https://github.com/NikhilNWakode/MedVisionAI">
+<img src="https://img.shields.io/badge/VIEW_PROJECT-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+A full-stack multimodal AI system I built to explore how **medical
+vision, retrieval, reranking, and LLMs** can work together inside
+a complete AI product.
+
+### What I built
+
+- 🧠 **BiomedCLIP** for medical image embeddings
+- 🔎 **BGE + BM25** hybrid retrieval
+- 🔀 **Reciprocal Rank Fusion**
+- 🎯 **LLM-based reranking**
+- 💬 Real-time RAG chat
+- 📄 Structured AI report generation
+- 🩻 DICOM processing
+- 🏥 HL7 FHIR R4 export
+- ⚡ Redis caching
+- 🗄️ PostgreSQL + Qdrant
+- 🐳 Docker + GitHub Actions
+
+> **I built it because I wanted to understand what happens beyond
+> simply calling an LLM API.**
+
+[→ Explore MedVisionAI](https://github.com/NikhilNWakode/MedVisionAI)
+
+---
+
+# 🧩 How I Build
+
+I don't start with:
+
+> *"Which technology should I use?"*
+
+I start with:
+
+> *"What problem am I actually trying to solve?"*
+
+Then:
+
+```text
+             ┌─────────────┐
+             │   PROBLEM   │
+             └──────┬──────┘
+                    ↓
+             ┌─────────────┐
+             │  UNDERSTAND │
+             └──────┬──────┘
+                    ↓
+             ┌─────────────┐
+             │  PROTOTYPE  │
+             └──────┬──────┘
+                    ↓
+             ┌─────────────┐
+             │    BUILD    │
+             └──────┬──────┘
+                    ↓
+             ┌─────────────┐
+             │   MEASURE   │
+             └──────┬──────┘
+                    ↓
+             ┌─────────────┐
+             │   ITERATE   │
+             └──────┬──────┘
+                    ↓
+             ┌─────────────┐
+             │    SHIP 🚀  │
+             └─────────────┘
 
 
 
+This is a good differentiator because it's about **how you think**, not what libraries you've memorized.
+```
+---
 
-- 💬 Ask me about **Mern Stack**
+# Section 5 — Tech Stack
 
-- 📫 How to reach me **wakode333nikhil@gmail.com**
+Now add your technical skills, but **don't use the giant wall of icons** from your old README.
 
-- 📄 Know about my experiences [https://drive.google.com/drive/folders/17200StkDHW6GMxfQTjd2r4VniA4E261x](https://drive.google.com/drive/folders/17200StkDHW6GMxfQTjd2r4VniA4E261x)
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/wakode-nikhil/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/wakode-nikhil/" height="30" width="40" /></a>
-</p>
+# ⚙️ Engineering Stack
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+### 🤖 AI / Machine Learning
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=nikhilnwakode&show_icons=true&locale=en&layout=compact" alt="nikhilnwakode" /></p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-111827?style=flat-square)
+![LLMs](https://img.shields.io/badge/LLMs-111827?style=flat-square)
+![Embeddings](https://img.shields.io/badge/Embeddings-111827?style=flat-square)
+![BM25](https://img.shields.io/badge/BM25-111827?style=flat-square)
+![Reranking](https://img.shields.io/badge/Reranking-111827?style=flat-square)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nikhilnwakode&show_icons=true&locale=en" alt="nikhilnwakode" /></p>
+### ⚡ Backend & Data
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nikhilnwakode&" alt="nikhilnwakode" /></p>
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-FF4F64?style=flat-square)
+
+### 🎨 Frontend
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+### 🐳 Infrastructure
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+
+---
+
+# 💼 Experience
+
+### Software Developer Intern · TripFactory
+**Jan 2026 – Apr 2026**
+
+Worked on real-world AI and backend systems:
+
+- Built an LLM-powered NLP pipeline for customer-support issue
+  classification across **46 categories**.
+- Developed automated supplier risk scoring and escalation workflows.
+- Designed PII anonymization and semantic issue analysis workflows.
+- Worked with **Groq API, Qwen2.5, and Phi-3-mini**.
+- Built JWT authentication and authorization using **Java + Spring Boot**.
+- Debugged and optimized legacy enterprise APIs.
+
+> **The biggest takeaway:** building AI systems with real data is
+> very different from building a clean demo.
+
+---
+
+# 🔭 Currently Exploring
+
+I'm interested in the engineering problems that appear when AI moves
+from a demo into a real product.
+
+
+AI Systems
+│
+├── LLM Applications
+├── RAG & Retrieval
+├── Multimodal AI
+├── Agents
+├── Evaluation
+└── AI Infrastructure
+
+Backend Systems
+│
+├── APIs
+├── Databases
+├── Caching
+├── Async Systems
+└── Scalability
+
+Product Engineering
+│
+├── Developer Experience
+├── Real-time Systems
+├── Observability
+└── Shipping
+
+
+---
+
+# Section 8 — A Few Principles
+
+
+---
+
+# 💭 Things I Believe
+
+> **Build before you overthink.**
+
+> **Understand the abstraction before depending on it.**
+
+> **A working system teaches more than a perfect plan.**
+
+> **If you can't explain your architecture, you probably don't own it.**
+
+> **AI is exciting. Good engineering is what makes it useful.**
+
+---
+
+
+# 📊 GitHub Activity
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=NikhilNWakode&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" height="170"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=NikhilNWakode&theme=github-dark&hide_border=true" height="170"/>
+
+</div>
+
+---
+
+# 🤝 Let's Connect
+
+I'm interested in:
+
+- AI engineering
+- Backend & distributed systems
+- RAG / LLM applications
+- Developer tools
+- Interesting technical problems
+- Building things from scratch
+
+<div align="center">
+
+### **If you're building something interesting, let's talk.**
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-NikhilNWakode-181717?style=for-the-badge&logo=github)](https://github.com/NikhilNWakode)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](YOUR_LINKEDIN_URL)
+
+[![Email](https://img.shields.io/badge/Email-wakode333nikhil%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wakode333nikhil@gmail.com)
+
+<br/>
+
+**Thanks for stopping by. ⭐**
+
+</div>
