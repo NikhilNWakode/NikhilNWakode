@@ -1,255 +1,95 @@
-<br>
-
-<samp>NW &nbsp;/&nbsp; ENGINEERING NOTEBOOK &nbsp;/&nbsp; 2026</samp>
-
-# Nikhil Wakode
-
-<samp>AI ENGINEER &nbsp;·&nbsp; FULL-STACK BUILDER &nbsp;·&nbsp; PRODUCT ENGINEER</samp>
-
-<br>
-
-> I build AI systems, the backends they run on,
-> and the products that make them worth using.
-
-<br>
-
-<sub><samp><a href="https://github.com/NikhilNWakode">GITHUB</a> &nbsp;&nbsp;/&nbsp;&nbsp; <a href="mailto:wakode333nikhil@gmail.com">EMAIL</a> &nbsp;&nbsp;/&nbsp;&nbsp; <a href="YOUR_LINKEDIN_URL">LINKEDIN</a></samp></sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="Nikhil Wakode — AI engineer and builder" src="assets/hero-dark.svg" width="100%">
+</picture>
 
 <br>
 <br>
 
----
+I build AI systems, the backends under them, and the products around them.<br>
+Mostly to find out how they actually work. Sometimes the prototype survives.
 
-<sub><samp>01 / IDENTITY</samp></sub>
+<sub>[GitHub ↗](https://github.com/NikhilNWakode) &nbsp;&nbsp; [LinkedIn ↗](YOUR_LINKEDIN_URL) &nbsp;&nbsp; [Email ↗](mailto:wakode333nikhil@gmail.com)</sub>
 
-### Most ideas arrive half-formed. I like that stage.
+<br>
+<br>
+<br>
 
-I start where the problem is still vague and work toward something that runs.
-Along the way I try to understand each layer I touch — the retrieval step,
-the database, the API, the part the user actually sees.
-
-My work sits between AI engineering and backend systems. Calling a model is
-the easy part. The hard part is everything around it: what gets retrieved,
-how results get ranked, what gets cached, what breaks with real data, and
-how you'd know.
-
-I learn by building. Most of what I know came from a system that didn't work
-the first time.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/medvision-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/medvision-light.svg">
+  <img alt="MedVisionAI — input, embed, retrieve, fuse, rerank, ground" src="assets/medvision-dark.svg" width="100%">
+</picture>
 
 <br>
 
----
+A medical image and a clinical question go in. A grounded, cited answer comes out — as a chat reply, a structured report, or an HL7 FHIR R4 record.
 
-<sub><samp>02 / CURRENT FOCUS</samp></sub>
+I built it to see what actually happens after you call the model: why dense search misses exact clinical terms, why fusing two rankings beats tuning one, and where an LLM is worth its latency.
 
-### What happens when AI leaves the demo.
+<samp>BiomedCLIP · BGE · BM25 · RRF · Qdrant · PostgreSQL · Redis · FastAPI · DICOM · Docker</samp>
 
-```text
-RETRIEVAL      hybrid search, fusion, reranking
-MULTIMODAL     image + text in one retrieval space
-AGENTS         tool use, control flow, failure modes
-EVALUATION     measuring whether any of it is right
-SYSTEMS        APIs, caching, async work, data models
-```
+**[Explore the project →](https://github.com/NikhilNWakode/MedVisionAI)**
+
+<br>
+<br>
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/gitworth-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/gitworth-light.svg">
+  <img alt="GitWorth — sample certificate of appraisal: $26,480, market class Legend" src="assets/gitworth-dark.svg" width="100%">
+</picture>
 
 <br>
 
----
+Hand over a GitHub handle and the house prices it: a valuation, one of twenty market classes, a very specific roast, and exactly one genuine compliment.
 
-<sub><samp>03 / SELECTED WORK</samp></sub>
+The valuation model is deterministic.<br>
+The disrespect is not.
+
+**[Get appraised →](https://gitworthhub.vercel.app/)**
 
 <br>
+<br>
+<br>
 
-## MedVisionAI
+<sub><samp>LATELY</samp></sub>
 
-<samp>MULTIMODAL AI &nbsp;·&nbsp; HYBRID RAG &nbsp;·&nbsp; MEDICAL IMAGING</samp>
-
-A full-stack system that takes medical images and clinical questions and
-answers them with grounded, cited context. Images are embedded with
-BiomedCLIP; text is searched two ways — dense and lexical — then fused,
-reranked by an LLM, and turned into chat responses or structured reports
-that export as HL7 FHIR R4. I built it to understand what happens beyond
-simply calling an LLM API.
-
-```text
- DICOM / IMAGE                QUESTION
-      │                          │
-      ▼                  ┌───────┴───────┐
-  BiomedCLIP             ▼               ▼
-      │              BGE dense       BM25 sparse
-      │                  │               │
-      └──────┬───────────┘               │
-             ▼                           │
-          QDRANT                         │
-             │                           │
-             └────────────┬──────────────┘
-                          ▼
-               RECIPROCAL RANK FUSION
-                          │
-                          ▼
-                     LLM RERANK
-                          │
-                          ▼
-                GROUNDED GENERATION
-                          │
-            ┌─────────────┼─────────────┐
-            ▼             ▼             ▼
-          CHAT         REPORT        FHIR R4
-
- PostgreSQL · records          Redis · cache
-```
-
-<samp>BUILT WITH</samp>
-
-<samp>BiomedCLIP · BGE · BM25 · RRF · Qdrant · PostgreSQL · Redis · FastAPI · DICOM · HL7 FHIR R4 · Docker</samp>
-
-<samp>WHAT I EXPLORED</samp>
-
-- Why dense retrieval alone misses exact clinical terms, and where BM25 recovers them.
-- Fusing ranked lists with RRF instead of tuning fragile score weights.
-- Spending an LLM call on reranking only after cheap retrieval has narrowed the field.
-- Putting image and text embeddings behind a single retrieval interface.
-- Emitting output in a real interoperability standard, not just prose.
-
-<samp><a href="https://github.com/NikhilNWakode/MedVisionAI">→ VIEW PROJECT</a></samp>
+### Retrieval that survives real data. Agents that know when to stop. Evals that don't flatter.
 
 <br>
 <br>
 
-## GitWorth
+<sub><samp>PREVIOUSLY</samp></sub>
 
-<samp>FICTIONAL APPRAISAL ENGINE &nbsp;·&nbsp; GITHUB PROFILES</samp>
+**TripFactory**<br>
+<sub><samp>SOFTWARE DEVELOPER INTERN · JAN — APR 2026</samp></sub>
 
-A financial appraisal for your GitHub profile — valuation, rank, a written
-assessment, and a roast. It is a joke with a serious spine: the number comes
-from a deterministic model, not from an LLM's mood. Language models only
-write about a valuation that has already been decided.
-
-```text
- GITHUB PROFILE
-      │
-      ▼
- SIGNAL EXTRACTION
-      │
-      ▼
- DETERMINISTIC VALUATION   same input, same number
-      │
-      ▼
- RANK
-      │
-      ├──────────────┐
-      ▼              ▼
- APPRAISAL         ROAST
-      │              │
-      └──────┬───────┘
-             ▼
-     SHAREABLE RESULT
-```
-
-<samp>WHAT I EXPLORED</samp>
-
-- Turning noisy public activity into signals that can be scored.
-- Keeping the score reproducible, and the LLM downstream of it.
-- Writing one result in two voices: the appraiser and the critic.
-- Designing an output people actually want to share.
-
-<samp><a href="https://github.com/NikhilNWakode/GitWorth">→ VIEW PROJECT</a></samp>
+Built the LLM pipeline that sorts support tickets into 46 issue categories, with PII stripped before any text reached a model. Put Groq, Qwen2.5 and Phi-3-mini side by side on quality, latency and cost. Wrote the supplier risk scoring and escalation logic that acted on the results — and, on the side, JWT auth in Spring Boot and a fair amount of legacy API archaeology.
 
 <br>
 
----
+<sub><samp>WORKING WITH</samp></sub>
 
-<sub><samp>04 / HOW I BUILD</samp></sub>
+<samp>ai</samp>&ensp; Python · LLMs · RAG · retrieval · embeddings · Qdrant<br>
+<samp>backend</samp>&ensp; FastAPI · Node · Spring Boot · PostgreSQL · Redis<br>
+<samp>product</samp>&ensp; React · Next.js · TypeScript<br>
+<samp>infra</samp>&ensp; Docker · GitHub Actions
 
-### Problem first. Tools last.
+<br>
+<br>
+<br>
 
-```text
- problem → understand → prototype → build → measure
-    ▲                                         │
-    └──────────────── iterate ◄───────────────┘
-```
-
-I pick the technology after I know what the system has to do.
-I prototype early because the first version is mostly a way to find the real
-questions. And I measure before I believe anything — a retrieval pipeline
-that feels right is not the same as one that is.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg">
+  <img alt="I like hard problems and slightly unreasonable ideas." src="assets/footer-dark.svg" width="100%">
+</picture>
 
 <br>
 
----
+If you're building one of those, **[write to me →](mailto:wakode333nikhil@gmail.com)**
 
-<sub><samp>05 / ENGINEERING STACK</samp></sub>
-
-```text
-AI / ML
-  Python · LLMs · RAG · embeddings · BM25
-  reranking · BiomedCLIP · Groq
-
-BACKEND / DATA
-  FastAPI · Node.js · Java · Spring Boot
-  PostgreSQL · Redis · Qdrant
-
-FRONTEND
-  React · Next.js · TypeScript · Tailwind
-
-INFRASTRUCTURE
-  Docker · GitHub Actions · Git
-```
-
-<br>
-
----
-
-<sub><samp>06 / EXPERIENCE</samp></sub>
-
-<br>
-
-**Software Developer Intern**<br>
-<samp>TRIPFACTORY &nbsp;·&nbsp; JAN 2026 — APR 2026</samp>
-
-- Built an LLM classification pipeline for support tickets across 46 issue categories.
-- Compared Groq-hosted models with Qwen2.5 and Phi-3-mini for accuracy, speed and cost.
-- Added PII anonymization before any ticket text reached a model.
-- Built semantic issue analysis to group recurring problems.
-- Wrote supplier risk scoring and the escalation workflows that act on it.
-- Built JWT authentication and authorization in Java / Spring Boot, and debugged legacy enterprise APIs.
-
-> Real data is where AI systems stop being clean. Most of the work was there.
-
-<br>
-
----
-
-<sub><samp>07 / PRINCIPLES</samp></sub>
-
-<samp>i.</samp> &nbsp; Build before you overthink.<br>
-<samp>ii.</samp> &nbsp; Understand the abstraction before depending on it.<br>
-<samp>iii.</samp> &nbsp; A working system teaches more than a perfect plan.<br>
-<samp>iv.</samp> &nbsp; If you can't explain the architecture, you don't own it.<br>
-<samp>v.</samp> &nbsp; The model is one component. Treat it like one.
-
-<br>
-
----
-
-<sub><samp>08 / ACTIVITY</samp></sub>
-
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=NikhilNWakode&show_icons=true&hide_border=true&hide_rank=true&hide_title=true&bg_color=0A0A0A&text_color=A8A8A8&icon_color=B8A47A&title_color=F3F0E8" height="140" alt="GitHub stats" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NikhilNWakode&bg_color=0A0A0A&color=A8A8A8&line=B8A47A&point=F3F0E8&area=false&hide_border=true&hide_title=true&custom_title=%20" width="100%" alt="Contribution graph" />
-
-<br>
-
----
-
-<sub><samp>09 / CONTACT</samp></sub>
-
-### If you're working on retrieval, agents, or AI products that need real engineering underneath — write to me.
-
-<samp><a href="mailto:wakode333nikhil@gmail.com">wakode333nikhil@gmail.com</a></samp>
-
-<br>
-
-<sub><samp>NW &nbsp;—&nbsp; END OF FILE</samp></sub>
+<sub>[GitHub ↗](https://github.com/NikhilNWakode) &nbsp;&nbsp; [LinkedIn ↗](https://www.linkedin.com/in/wakode-nikhil/) &nbsp;&nbsp; [Email ↗](mailto:wakode333nikhil@gmail.com)</sub>
