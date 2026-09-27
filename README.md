@@ -1,95 +1,128 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img alt="Nikhil Wakode — AI engineer and builder" src="assets/hero-dark.svg" width="100%">
-</picture>
+<div align="center">
+
+<br>
+
+<h1>Nikhil Wakode</h1>
+
+<sub>AI ENGINEER &nbsp;·&nbsp; FULL-STACK BUILDER</sub>
 
 <br>
 <br>
 
-I build AI systems, the backends under them, and the products around them.<br>
-Mostly to find out how they actually work. Sometimes the prototype survives.
-
-<sub>[GitHub ↗](https://github.com/NikhilNWakode) &nbsp;&nbsp; [LinkedIn ↗](YOUR_LINKEDIN_URL) &nbsp;&nbsp; [Email ↗](mailto:wakode333nikhil@gmail.com)</sub>
-
-<br>
-<br>
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/medvision-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/medvision-light.svg">
-  <img alt="MedVisionAI — input, embed, retrieve, fuse, rerank, ground" src="assets/medvision-dark.svg" width="100%">
-</picture>
+I build AI-powered products — and the systems behind them.
 
 <br>
 
-A medical image and a clinical question go in. A grounded, cited answer comes out — as a chat reply, a structured report, or an HL7 FHIR R4 record.
-
-I built it to see what actually happens after you call the model: why dense search misses exact clinical terms, why fusing two rankings beats tuning one, and where an LLM is worth its latency.
-
-<samp>BiomedCLIP · BGE · BM25 · RRF · Qdrant · PostgreSQL · Redis · FastAPI · DICOM · Docker</samp>
-
-**[Explore the project →](https://github.com/NikhilNWakode/MedVisionAI)**
-
-<br>
-<br>
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/gitworth-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/gitworth-light.svg">
-  <img alt="GitWorth — sample certificate of appraisal: $26,480, market class Legend" src="assets/gitworth-dark.svg" width="100%">
-</picture>
-
-<br>
-
-Hand over a GitHub handle and the house prices it: a valuation, one of twenty market classes, a very specific roast, and exactly one genuine compliment.
-
-The valuation model is deterministic.<br>
-The disrespect is not.
-
-**[Get appraised →](https://gitworthhub.vercel.app/)**
-
-<br>
-<br>
-<br>
-
-<sub><samp>LATELY</samp></sub>
-
-### Retrieval that survives real data. Agents that know when to stop. Evals that don't flatter.
+<a href="https://github.com/NikhilNWakode">GitHub</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="YOUR_LINKEDIN_URL">LinkedIn</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="mailto:wakode333nikhil@gmail.com">Email</a>
 
 <br>
 <br>
 
-<sub><samp>PREVIOUSLY</samp></sub>
+</div>
 
-**TripFactory**<br>
-<sub><samp>SOFTWARE DEVELOPER INTERN · JAN — APR 2026</samp></sub>
+<sub>ABOUT</sub>
 
-Built the LLM pipeline that sorts support tickets into 46 issue categories, with PII stripped before any text reached a model. Put Groq, Qwen2.5 and Phi-3-mini side by side on quality, latency and cost. Wrote the supplier risk scoring and escalation logic that acted on the results — and, on the side, JWT auth in Spring Boot and a fair amount of legacy API archaeology.
+### I turn ambiguous ideas into working systems.
 
-<br>
+I'm a Computer Science engineer working across AI engineering, backend systems and full-stack development. Most of my time goes into LLMs, RAG, multimodal AI, retrieval and evaluation — and into products built for developers.
 
-<sub><samp>WORKING WITH</samp></sub>
-
-<samp>ai</samp>&ensp; Python · LLMs · RAG · retrieval · embeddings · Qdrant<br>
-<samp>backend</samp>&ensp; FastAPI · Node · Spring Boot · PostgreSQL · Redis<br>
-<samp>product</samp>&ensp; React · Next.js · TypeScript<br>
-<samp>infra</samp>&ensp; Docker · GitHub Actions
-
-<br>
-<br>
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg">
-  <img alt="I like hard problems and slightly unreasonable ideas." src="assets/footer-dark.svg" width="100%">
-</picture>
+I learn by building. The interesting part is usually past the API: why a system works, where it fails, and what would make it better.
 
 <br>
 
-If you're building one of those, **[write to me →](mailto:wakode333nikhil@gmail.com)**
+<sub>SELECTED WORK</sub>
 
-<sub>[GitHub ↗](https://github.com/NikhilNWakode) &nbsp;&nbsp; [LinkedIn ↗](https://www.linkedin.com/in/wakode-nikhil/) &nbsp;&nbsp; [Email ↗](mailto:wakode333nikhil@gmail.com)</sub>
+### MedVisionAI
+
+<sub>MULTIMODAL AI &nbsp;·&nbsp; HYBRID RAG &nbsp;·&nbsp; MEDICAL IMAGING</sub>
+
+A full-stack multimodal AI system exploring how medical vision, retrieval, reranking and LLMs work together inside one complete product — from DICOM processing through real-time RAG chat to structured AI reports and HL7 FHIR R4 export.
+
+**AI** &emsp; BiomedCLIP · BGE + BM25 hybrid retrieval · Reciprocal Rank Fusion · LLM reranking<br>
+**Data** &emsp; PostgreSQL · Qdrant · Redis caching<br>
+**Medical** &emsp; DICOM · HL7 FHIR R4<br>
+**Infrastructure** &emsp; Docker · GitHub Actions
+
+> I built it because I wanted to understand what happens beyond simply calling an LLM API.
+
+**[View repository →](https://github.com/NikhilNWakode/MedVisionAI)**
+
+<br>
+
+<sub>HOW I BUILD</sub>
+
+### I don't start with *"which technology should I use?"*<br>I start with *"what problem am I actually trying to solve?"*
+
+**Problem → Understand → Prototype → Build → Measure → Iterate → Ship**
+
+The stack comes after I understand the system, not before. I prototype early because a rough version that runs surfaces the real questions faster than a plan does — then I measure before I trust it.
+
+<br>
+
+<sub>ENGINEERING STACK</sub>
+
+### What I build with
+
+**AI / ML** &emsp; Python · LLMs · RAG · Embeddings · BM25 · Reranking · Groq<br>
+**Backend / Data** &emsp; FastAPI · Node.js · PostgreSQL · Redis · Qdrant<br>
+**Frontend** &emsp; React · Next.js · TypeScript · Tailwind CSS<br>
+**Infrastructure** &emsp; Docker · Git · GitHub Actions
+
+<br>
+
+<sub>EXPERIENCE</sub>
+
+### Software Developer Intern — TripFactory
+
+<sub>JAN 2026 – APR 2026</sub>
+
+- Built an LLM-powered NLP pipeline that classifies customer-support issues across **46 categories**, using the Groq API with Qwen2.5 and Phi-3-mini.
+- Added PII anonymization and semantic issue analysis to the support workflow.
+- Automated supplier risk scoring and the escalation workflows that act on it.
+- Built JWT authentication and authorization with Java and Spring Boot.
+- Debugged and optimized legacy enterprise APIs.
+
+*The main lesson: building AI systems on real data is a different job from building a clean demo.*
+
+<br>
+
+<sub>CURRENTLY EXPLORING</sub>
+
+### The problems that show up when AI moves from a demo into a real product.
+
+| AI Systems | Backend Systems | Product Engineering |
+| :-- | :-- | :-- |
+| LLM applications | APIs | Developer experience |
+| RAG & retrieval | Databases | Real-time systems |
+| Multimodal AI | Caching | Observability |
+| Agents | Async systems | Shipping |
+| Evaluation | Scalability | |
+| AI infrastructure | | |
+
+<br>
+
+<sub>PRINCIPLES</sub>
+
+*Build before you overthink.*<br>
+*Understand the abstraction before depending on it.*<br>
+*If you can't explain your architecture, you probably don't own it.*
+
+<br>
+<br>
+
+<div align="center">
+
+<sub>CONTACT</sub>
+
+### Building something interesting?
+
+I'm always up for a conversation about AI systems, developer tools<br>and technically interesting problems.
+
+<br>
+
+<a href="https://github.com/NikhilNWakode">GitHub</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="https://www.linkedin.com/in/wakode-nikhil/">LinkedIn</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="mailto:wakode333nikhil@gmail.com">wakode333nikhil@gmail.com</a>
+
+<br>
+<br>
+
+</div>
