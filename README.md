@@ -1,131 +1,101 @@
-<div align="center">
+<img src="assets/hero.svg" width="100%" alt="Nikhil Wakode — AI Engineer · Full-Stack Builder. I build AI-powered products and the systems behind them.">
 
-<br>
-<br>
+<p align="center">
+  <a href="https://www.linkedin.com/in/wakode-nikhil/"><img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=818CF8" alt="LinkedIn"></a>
+  <a href="mailto:wakode333nikhil@gmail.com"><img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=818CF8" alt="Email"></a>
+  <a href="https://github.com/NikhilNWakode?tab=repositories"><img src="https://img.shields.io/badge/Repositories-111111?style=for-the-badge&logo=github&logoColor=818CF8" alt="Repositories"></a>
+</p>
 
-<h1>NIKHIL WAKODE</h1>
-
-<sub>AI ENGINEER &nbsp;·&nbsp; FULL-STACK BUILDER</sub>
-
-<br>
-<br>
-
-**I build AI-powered products and the systems behind them.**
-
-<br>
-
-<a href="https://github.com/NikhilNWakode">GitHub</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="https://www.linkedin.com/in/wakode-nikhil/">LinkedIn</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="mailto:wakode333nikhil@gmail.com">Email</a>
-
-<br>
-<br>
-<br>
-
-</div>
+<img src="assets/divider.svg" width="100%" alt="">
 
 <sub>ABOUT</sub>
 
 ### I like turning ambiguous ideas into working systems.
 
-I'm a Computer Science engineer working across AI engineering, backend systems and full-stack development — mostly with LLMs, RAG, multimodal AI, retrieval and evaluation, and on products built for developers.
+I'm a Computer Science engineer working across **AI engineering, backend systems and full-stack development**. Most of my time goes into LLMs, RAG, multimodal AI, retrieval and evaluation — and into products built for developers.
 
-I learn by building. Past the APIs and abstractions is where it gets useful: why a system works, where it fails, and how to make it better.
+I learn by building. Past the APIs and abstractions is where it gets interesting: why a system works, where it fails, and how to make it better.
 
-<br>
-<br>
+<p>
+  <img src="https://img.shields.io/badge/LLMs-1E1B4B?style=flat-square" alt="LLMs">
+  <img src="https://img.shields.io/badge/RAG-1E1B4B?style=flat-square" alt="RAG">
+  <img src="https://img.shields.io/badge/Multimodal_AI-1E1B4B?style=flat-square" alt="Multimodal AI">
+  <img src="https://img.shields.io/badge/Retrieval-1E1B4B?style=flat-square" alt="Retrieval">
+  <img src="https://img.shields.io/badge/Evaluation-1E1B4B?style=flat-square" alt="Evaluation">
+  <img src="https://img.shields.io/badge/Backend_Systems-1E1B4B?style=flat-square" alt="Backend systems">
+</p>
 
-<sub>01 &nbsp;/&nbsp; SELECTED WORK</sub>
+<img src="assets/divider.svg" width="100%" alt="">
 
-<h1>MedVisionAI</h1>
+<sub>SELECTED WORK</sub>
 
-<sub>MULTIMODAL AI &nbsp;·&nbsp; HYBRID RAG &nbsp;·&nbsp; MEDICAL IMAGING</sub>
+<a href="https://github.com/NikhilNWakode/MedVisionAI"><img src="assets/medvision.svg" width="100%" alt="MedVisionAI pipeline: medical image → BiomedCLIP → hybrid retrieval (BGE + BM25) → reciprocal rank fusion → LLM reranking → RAG response"></a>
 
 A full-stack multimodal AI system that brings medical vision, retrieval, reranking and LLMs together in one complete product — from DICOM processing to real-time RAG chat, structured AI reports and HL7 FHIR R4 export.
 
-```mermaid
-flowchart TD
-    A[Medical image] --> B[BiomedCLIP]
-    B --> C[Hybrid retrieval<br/>BGE + BM25]
-    C --> D[Reciprocal Rank Fusion]
-    D --> E[LLM reranking]
-    E --> F[RAG response]
-    classDef accent fill:#4F46E5,stroke:#4F46E5,color:#FFFFFF
-    class F accent
-```
-
-```text
-TYPE         Multimodal AI
-RETRIEVAL    Hybrid · BGE + BM25
-VISION       BiomedCLIP
-VECTOR DB    Qdrant
-DATA         PostgreSQL
-CACHE        Redis
-OUTPUT       Reports · FHIR R4
-```
-
 > **I built it because I wanted to understand what happens beyond simply calling an LLM API.**
 
-`BiomedCLIP` `BGE` `BM25` `RRF` `Qdrant` `PostgreSQL` `Redis` `DICOM` `Docker` `GitHub Actions`
+| Layer | Built with |
+| :-- | :-- |
+| **Vision** | BiomedCLIP medical image embeddings |
+| **Retrieval** | BGE + BM25 hybrid search, Reciprocal Rank Fusion |
+| **Ranking** | LLM-based reranking |
+| **Output** | Real-time RAG chat · structured reports · HL7 FHIR R4 |
+| **Data** | PostgreSQL · Qdrant · Redis caching |
+| **Delivery** | Docker · GitHub Actions |
 
-[View repository →](https://github.com/NikhilNWakode/MedVisionAI)
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-111111?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/Qdrant-111111?style=flat-square&logo=qdrant&logoColor=white" alt="Qdrant">
+  <img src="https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Redis-111111?style=flat-square&logo=redis&logoColor=white" alt="Redis">
+  <img src="https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+</p>
 
-<br>
-<br>
+<a href="https://github.com/NikhilNWakode/MedVisionAI"><img src="https://img.shields.io/badge/View_repository_→-4F46E5?style=for-the-badge&logo=github&logoColor=white" alt="View repository"></a>
 
-<sub>02 &nbsp;/&nbsp; HOW I BUILD</sub>
+<img src="assets/divider.svg" width="100%" alt="">
 
-### **Problem** &nbsp;→&nbsp; **Understand** &nbsp;→&nbsp; **Prototype** &nbsp;→&nbsp; **Build** &nbsp;→&nbsp; **Measure** &nbsp;→&nbsp; **Iterate** &nbsp;→&nbsp; **Ship**
+<sub>HOW I BUILD</sub>
 
-> I don't start with *which technology should I use?*<br>
-> I start with ***what problem am I actually trying to solve?***
+<img src="assets/process.svg" width="100%" alt="Problem → Understand → Prototype → Build → Measure → Iterate → Ship">
 
-The stack comes after I understand the system. I prototype early, because a rough version that runs shows the real questions faster than a plan does — and I measure before I trust anything.
+> I don't start with *"Which technology should I use?"*<br>
+> I start with **"What problem am I actually trying to solve?"**
 
-<br>
-<br>
+The stack comes after I understand the system. I prototype early, because a rough version that runs surfaces the real questions faster than any plan — and I measure before I trust it.
+
+<img src="assets/divider.svg" width="100%" alt="">
 
 <sub>ENGINEERING STACK</sub>
 
-<sub>AI / ML</sub>
+**AI / ML**<br>
+<img src="https://skillicons.dev/icons?i=python&theme=dark" height="44" alt="Python"> &nbsp;
+<img src="https://img.shields.io/badge/LLMs-1E1B4B?style=flat-square" alt="LLMs">
+<img src="https://img.shields.io/badge/RAG-1E1B4B?style=flat-square" alt="RAG">
+<img src="https://img.shields.io/badge/Embeddings-1E1B4B?style=flat-square" alt="Embeddings">
+<img src="https://img.shields.io/badge/BM25-1E1B4B?style=flat-square" alt="BM25">
+<img src="https://img.shields.io/badge/Reranking-1E1B4B?style=flat-square" alt="Reranking">
+<img src="https://img.shields.io/badge/Groq-1E1B4B?style=flat-square" alt="Groq">
 
-`Python` `LLMs` `RAG` `Embeddings` `BM25` `Reranking` `Groq`
+**Backend / Data**<br>
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,java,spring,postgres,mongodb,redis&theme=dark" height="44" alt="FastAPI, Node.js, Java, Spring Boot, PostgreSQL, MongoDB, Redis"> &nbsp;
+<img src="https://img.shields.io/badge/Qdrant-1E1B4B?style=flat-square" alt="Qdrant">
 
-<sub>BACKEND / DATA</sub>
+**Frontend**<br>
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind&theme=dark" height="44" alt="React, Next.js, TypeScript, Tailwind CSS">
 
-`FastAPI` `Node.js` `PostgreSQL` `MongoDB` `Redis` `Qdrant`
+**Infrastructure**<br>
+<img src="https://skillicons.dev/icons?i=docker,git,githubactions&theme=dark" height="44" alt="Docker, Git, GitHub Actions">
 
-<sub>FRONTEND</sub>
-
-`React` `Next.js` `TypeScript` `Tailwind CSS`
-
-<sub>INFRASTRUCTURE</sub>
-
-`Docker` `Git` `GitHub Actions`
-
-<br>
-<br>
+<img src="assets/divider.svg" width="100%" alt="">
 
 <sub>EXPERIENCE</sub>
 
-### TripFactory
+<img src="assets/experience.svg" width="100%" alt="TripFactory — Software Developer Intern, Jan 2026 to Apr 2026. 46 issue categories classified by an LLM pipeline.">
 
-Software Developer Intern &nbsp;·&nbsp; <sub>JAN 2026 — APR 2026</sub>
-
-## 46
-
-<sub>ISSUE CATEGORIES CLASSIFIED BY AN LLM PIPELINE</sub>
-
-```text
-2026
- │
- ├── TripFactory
- │    LLM classification
- │    Risk scoring
- │    PII anonymization
- │
- └── Enterprise API systems
-```
-
-- Built an LLM-powered NLP pipeline for customer-support issue classification across 46 categories, using the Groq API with Qwen2.5 and Phi-3-mini.
+- Built an LLM-powered NLP pipeline for customer-support issue classification across **46 categories**, using the Groq API with Qwen2.5 and Phi-3-mini.
 - Built supplier risk scoring and the escalation workflows around it.
 - Designed PII anonymization and semantic issue analysis.
 - Built JWT authentication and authorization with Java and Spring Boot.
@@ -133,55 +103,47 @@ Software Developer Intern &nbsp;·&nbsp; <sub>JAN 2026 — APR 2026</sub>
 
 > **Building AI systems with real data is very different from building a clean demo.**
 
-<br>
-<br>
+<img src="assets/divider.svg" width="100%" alt="">
 
 <sub>CURRENTLY</sub>
 
 ### Exploring what happens when AI moves from a demo into a real product.
 
-**AI Systems**<br>
-LLM applications · RAG & retrieval · Multimodal AI · Agents · Evaluation · AI infrastructure
+<table>
+  <tr>
+    <th align="left">AI Systems</th>
+    <th align="left">Backend</th>
+    <th align="left">Product</th>
+  </tr>
+  <tr valign="top">
+    <td>LLM applications<br>RAG &amp; retrieval<br>Multimodal AI<br>Agents<br>Evaluation<br>AI infrastructure</td>
+    <td>APIs<br>Databases<br>Caching<br>Async systems<br>Scalability</td>
+    <td>Developer experience<br>Real-time systems<br>Observability<br>Shipping</td>
+  </tr>
+</table>
 
-**Backend**<br>
-APIs · Databases · Caching · Async systems · Scalability
+<br>
 
-**Product**<br>
-Developer experience · Real-time systems · Observability · Shipping
+<img src="assets/principles.svg" width="100%" alt="Principles: 01 Build before you overthink. 02 Understand the abstraction before depending on it. 03 A working system teaches more than a perfect plan. 04 If you can't explain your architecture, you don't own it.">
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+<sub>ACTIVITY</sub>
+
+<img src="assets/activity.svg" width="100%" alt="GitHub activity — contributions, commits, repositories, stars and languages">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NikhilNWakode/NikhilNWakode/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NikhilNWakode/NikhilNWakode/output/snake-light.svg">
+  <img src="https://raw.githubusercontent.com/NikhilNWakode/NikhilNWakode/output/snake-dark.svg" width="100%" alt="Contribution graph being eaten by a snake">
+</picture>
 
 <br>
 <br>
 
-<sub>PRINCIPLES</sub>
+<img src="assets/footer.svg" width="100%" alt="Building something interesting? AI systems, developer tools, interesting technical problems.">
 
-<sub>01</sub> &emsp; **BUILD BEFORE YOU OVERTHINK.**
-
-<sub>02</sub> &emsp; **UNDERSTAND THE ABSTRACTION BEFORE DEPENDING ON IT.**
-
-<sub>03</sub> &emsp; **A WORKING SYSTEM TEACHES MORE THAN A PERFECT PLAN.**
-
-<sub>04</sub> &emsp; **IF YOU CAN'T EXPLAIN YOUR ARCHITECTURE, YOU PROBABLY DON'T OWN IT.**
-
-<br>
-<br>
-<br>
-
-<div align="center">
-
-<hr>
-
-<br>
-
-<sub>BUILDING SOMETHING INTERESTING?</sub>
-
-### AI systems. Developer tools. Interesting technical problems.
-
-<br>
-
-<a href="https://github.com/NikhilNWakode">GitHub</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="https://www.linkedin.com/in/wakode-nikhil/">LinkedIn</a> &nbsp;&nbsp;·&nbsp;&nbsp; <a href="mailto:wakode333nikhil@gmail.com">wakode333nikhil@gmail.com</a>
-
-<br>
-
-<hr>
-
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/wakode-nikhil/"><img src="https://img.shields.io/badge/LinkedIn-wakode--nikhil-111111?style=for-the-badge&logo=linkedin&logoColor=818CF8&labelColor=111111" alt="LinkedIn"></a>
+  <a href="mailto:wakode333nikhil@gmail.com"><img src="https://img.shields.io/badge/Email-wakode333nikhil@gmail.com-111111?style=for-the-badge&logo=gmail&logoColor=818CF8&labelColor=111111" alt="Email"></a>
+</p>
