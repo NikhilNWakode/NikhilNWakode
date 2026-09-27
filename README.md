@@ -1,271 +1,255 @@
-<div align="center">
+<br>
 
-# Hey, I'm Nikhil 👋
+<samp>NW &nbsp;/&nbsp; ENGINEERING NOTEBOOK &nbsp;/&nbsp; 2026</samp>
 
-### AI Engineer · Full-Stack Builder · Problem Solver
+# Nikhil Wakode
 
-**I build AI-powered products and the systems behind them.**
+<samp>AI ENGINEER &nbsp;·&nbsp; FULL-STACK BUILDER &nbsp;·&nbsp; PRODUCT ENGINEER</samp>
 
-<br/>
+<br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NikhilNWakode)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wakode333nikhil@gmail.com)
+> I build AI systems, the backends they run on,
+> and the products that make them worth using.
 
-</div>
+<br>
 
----
+<sub><samp><a href="https://github.com/NikhilNWakode">GITHUB</a> &nbsp;&nbsp;/&nbsp;&nbsp; <a href="mailto:wakode333nikhil@gmail.com">EMAIL</a> &nbsp;&nbsp;/&nbsp;&nbsp; <a href="YOUR_LINKEDIN_URL">LINKEDIN</a></samp></sub>
 
-## 🧠 About Me
-
-I'm a Computer Science engineer who enjoys turning **ambiguous ideas
-into working systems**.
-
-My work sits at the intersection of:
-
-**AI Engineering · Backend Systems · Full-Stack Development**
-
-I'm particularly interested in **LLMs, RAG, multimodal AI, retrieval,
-evaluation, backend systems, and developer-focused products.**
-
-I learn by building — going beyond APIs and abstractions to understand
-**why systems work, where they fail, and how to make them better.**
+<br>
+<br>
 
 ---
 
-# 🚀 Featured Work
+<sub><samp>01 / IDENTITY</samp></sub>
 
-## 🩻 MedVisionAI
+### Most ideas arrive half-formed. I like that stage.
 
-### Multimodal AI + Hybrid RAG
+I start where the problem is still vague and work toward something that runs.
+Along the way I try to understand each layer I touch — the retrieval step,
+the database, the API, the part the user actually sees.
 
-<a href="https://github.com/NikhilNWakode/MedVisionAI">
-<img src="https://img.shields.io/badge/VIEW_PROJECT-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+My work sits between AI engineering and backend systems. Calling a model is
+the easy part. The hard part is everything around it: what gets retrieved,
+how results get ranked, what gets cached, what breaks with real data, and
+how you'd know.
 
-A full-stack multimodal AI system I built to explore how **medical
-vision, retrieval, reranking, and LLMs** can work together inside
-a complete AI product.
+I learn by building. Most of what I know came from a system that didn't work
+the first time.
 
-### What I built
-
-- 🧠 **BiomedCLIP** for medical image embeddings
-- 🔎 **BGE + BM25** hybrid retrieval
-- 🔀 **Reciprocal Rank Fusion**
-- 🎯 **LLM-based reranking**
-- 💬 Real-time RAG chat
-- 📄 Structured AI report generation
-- 🩻 DICOM processing
-- 🏥 HL7 FHIR R4 export
-- ⚡ Redis caching
-- 🗄️ PostgreSQL + Qdrant
-- 🐳 Docker + GitHub Actions
-
-> **I built it because I wanted to understand what happens beyond
-> simply calling an LLM API.**
-
-[→ Explore MedVisionAI](https://github.com/NikhilNWakode/MedVisionAI)
+<br>
 
 ---
 
-# 🧩 How I Build
+<sub><samp>02 / CURRENT FOCUS</samp></sub>
 
-I don't start with:
-
-> *"Which technology should I use?"*
-
-I start with:
-
-> *"What problem am I actually trying to solve?"*
-
-Then:
+### What happens when AI leaves the demo.
 
 ```text
-             ┌─────────────┐
-             │   PROBLEM   │
-             └──────┬──────┘
-                    ↓
-             ┌─────────────┐
-             │  UNDERSTAND │
-             └──────┬──────┘
-                    ↓
-             ┌─────────────┐
-             │  PROTOTYPE  │
-             └──────┬──────┘
-                    ↓
-             ┌─────────────┐
-             │    BUILD    │
-             └──────┬──────┘
-                    ↓
-             ┌─────────────┐
-             │   MEASURE   │
-             └──────┬──────┘
-                    ↓
-             ┌─────────────┐
-             │   ITERATE   │
-             └──────┬──────┘
-                    ↓
-             ┌─────────────┐
-             │    SHIP 🚀  │
-             └─────────────┘
-
-
-
-This is a good differentiator because it's about **how you think**, not what libraries you've memorized.
+RETRIEVAL      hybrid search, fusion, reranking
+MULTIMODAL     image + text in one retrieval space
+AGENTS         tool use, control flow, failure modes
+EVALUATION     measuring whether any of it is right
+SYSTEMS        APIs, caching, async work, data models
 ```
----
 
-# Section 5 — Tech Stack
-
-Now add your technical skills, but **don't use the giant wall of icons** from your old README.
+<br>
 
 ---
 
-# ⚙️ Engineering Stack
+<sub><samp>03 / SELECTED WORK</samp></sub>
 
-### 🤖 AI / Machine Learning
+<br>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-111827?style=flat-square)
-![LLMs](https://img.shields.io/badge/LLMs-111827?style=flat-square)
-![Embeddings](https://img.shields.io/badge/Embeddings-111827?style=flat-square)
-![BM25](https://img.shields.io/badge/BM25-111827?style=flat-square)
-![Reranking](https://img.shields.io/badge/Reranking-111827?style=flat-square)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
+## MedVisionAI
 
-### ⚡ Backend & Data
+<samp>MULTIMODAL AI &nbsp;·&nbsp; HYBRID RAG &nbsp;·&nbsp; MEDICAL IMAGING</samp>
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-FF4F64?style=flat-square)
+A full-stack system that takes medical images and clinical questions and
+answers them with grounded, cited context. Images are embedded with
+BiomedCLIP; text is searched two ways — dense and lexical — then fused,
+reranked by an LLM, and turned into chat responses or structured reports
+that export as HL7 FHIR R4. I built it to understand what happens beyond
+simply calling an LLM API.
 
-### 🎨 Frontend
+```text
+ DICOM / IMAGE                QUESTION
+      │                          │
+      ▼                  ┌───────┴───────┐
+  BiomedCLIP             ▼               ▼
+      │              BGE dense       BM25 sparse
+      │                  │               │
+      └──────┬───────────┘               │
+             ▼                           │
+          QDRANT                         │
+             │                           │
+             └────────────┬──────────────┘
+                          ▼
+               RECIPROCAL RANK FUSION
+                          │
+                          ▼
+                     LLM RERANK
+                          │
+                          ▼
+                GROUNDED GENERATION
+                          │
+            ┌─────────────┼─────────────┐
+            ▼             ▼             ▼
+          CHAT         REPORT        FHIR R4
 
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+ PostgreSQL · records          Redis · cache
+```
 
-### 🐳 Infrastructure
+<samp>BUILT WITH</samp>
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+<samp>BiomedCLIP · BGE · BM25 · RRF · Qdrant · PostgreSQL · Redis · FastAPI · DICOM · HL7 FHIR R4 · Docker</samp>
 
----
+<samp>WHAT I EXPLORED</samp>
 
-# 💼 Experience
+- Why dense retrieval alone misses exact clinical terms, and where BM25 recovers them.
+- Fusing ranked lists with RRF instead of tuning fragile score weights.
+- Spending an LLM call on reranking only after cheap retrieval has narrowed the field.
+- Putting image and text embeddings behind a single retrieval interface.
+- Emitting output in a real interoperability standard, not just prose.
 
-### Software Developer Intern · TripFactory
-**Jan 2026 – Apr 2026**
+<samp><a href="https://github.com/NikhilNWakode/MedVisionAI">→ VIEW PROJECT</a></samp>
 
-Worked on real-world AI and backend systems:
+<br>
+<br>
 
-- Built an LLM-powered NLP pipeline for customer-support issue
-  classification across **46 categories**.
-- Developed automated supplier risk scoring and escalation workflows.
-- Designed PII anonymization and semantic issue analysis workflows.
-- Worked with **Groq API, Qwen2.5, and Phi-3-mini**.
-- Built JWT authentication and authorization using **Java + Spring Boot**.
-- Debugged and optimized legacy enterprise APIs.
+## GitWorth
 
-> **The biggest takeaway:** building AI systems with real data is
-> very different from building a clean demo.
+<samp>FICTIONAL APPRAISAL ENGINE &nbsp;·&nbsp; GITHUB PROFILES</samp>
 
----
+A financial appraisal for your GitHub profile — valuation, rank, a written
+assessment, and a roast. It is a joke with a serious spine: the number comes
+from a deterministic model, not from an LLM's mood. Language models only
+write about a valuation that has already been decided.
 
-# 🔭 Currently Exploring
+```text
+ GITHUB PROFILE
+      │
+      ▼
+ SIGNAL EXTRACTION
+      │
+      ▼
+ DETERMINISTIC VALUATION   same input, same number
+      │
+      ▼
+ RANK
+      │
+      ├──────────────┐
+      ▼              ▼
+ APPRAISAL         ROAST
+      │              │
+      └──────┬───────┘
+             ▼
+     SHAREABLE RESULT
+```
 
-I'm interested in the engineering problems that appear when AI moves
-from a demo into a real product.
+<samp>WHAT I EXPLORED</samp>
 
+- Turning noisy public activity into signals that can be scored.
+- Keeping the score reproducible, and the LLM downstream of it.
+- Writing one result in two voices: the appraiser and the critic.
+- Designing an output people actually want to share.
 
-AI Systems
-│
-├── LLM Applications
-├── RAG & Retrieval
-├── Multimodal AI
-├── Agents
-├── Evaluation
-└── AI Infrastructure
+<samp><a href="https://github.com/NikhilNWakode/GitWorth">→ VIEW PROJECT</a></samp>
 
-Backend Systems
-│
-├── APIs
-├── Databases
-├── Caching
-├── Async Systems
-└── Scalability
-
-Product Engineering
-│
-├── Developer Experience
-├── Real-time Systems
-├── Observability
-└── Shipping
-
-
----
-
-# Section 8 — A Few Principles
-
-
----
-
-# 💭 Things I Believe
-
-> **Build before you overthink.**
-
-> **Understand the abstraction before depending on it.**
-
-> **A working system teaches more than a perfect plan.**
-
-> **If you can't explain your architecture, you probably don't own it.**
-
-> **AI is exciting. Good engineering is what makes it useful.**
+<br>
 
 ---
 
+<sub><samp>04 / HOW I BUILD</samp></sub>
 
-# 📊 GitHub Activity
+### Problem first. Tools last.
 
-<div align="center">
+```text
+ problem → understand → prototype → build → measure
+    ▲                                         │
+    └──────────────── iterate ◄───────────────┘
+```
 
-<img src="https://github-readme-stats.vercel.app/api?username=NikhilNWakode&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" height="170"/>
+I pick the technology after I know what the system has to do.
+I prototype early because the first version is mostly a way to find the real
+questions. And I measure before I believe anything — a retrieval pipeline
+that feels right is not the same as one that is.
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=NikhilNWakode&theme=github-dark&hide_border=true" height="170"/>
-
-</div>
+<br>
 
 ---
 
-# 🤝 Let's Connect
+<sub><samp>05 / ENGINEERING STACK</samp></sub>
 
-I'm interested in:
+```text
+AI / ML
+  Python · LLMs · RAG · embeddings · BM25
+  reranking · BiomedCLIP · Groq
 
-- AI engineering
-- Backend & distributed systems
-- RAG / LLM applications
-- Developer tools
-- Interesting technical problems
-- Building things from scratch
+BACKEND / DATA
+  FastAPI · Node.js · Java · Spring Boot
+  PostgreSQL · Redis · Qdrant
 
-<div align="center">
+FRONTEND
+  React · Next.js · TypeScript · Tailwind
 
-### **If you're building something interesting, let's talk.**
+INFRASTRUCTURE
+  Docker · GitHub Actions · Git
+```
 
-<br/>
+<br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-NikhilNWakode-181717?style=for-the-badge&logo=github)](https://github.com/NikhilNWakode)
+---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](YOUR_LINKEDIN_URL)
+<sub><samp>06 / EXPERIENCE</samp></sub>
 
-[![Email](https://img.shields.io/badge/Email-wakode333nikhil%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wakode333nikhil@gmail.com)
+<br>
 
-<br/>
+**Software Developer Intern**<br>
+<samp>TRIPFACTORY &nbsp;·&nbsp; JAN 2026 — APR 2026</samp>
 
-**Thanks for stopping by. ⭐**
+- Built an LLM classification pipeline for support tickets across 46 issue categories.
+- Compared Groq-hosted models with Qwen2.5 and Phi-3-mini for accuracy, speed and cost.
+- Added PII anonymization before any ticket text reached a model.
+- Built semantic issue analysis to group recurring problems.
+- Wrote supplier risk scoring and the escalation workflows that act on it.
+- Built JWT authentication and authorization in Java / Spring Boot, and debugged legacy enterprise APIs.
 
-</div>
+> Real data is where AI systems stop being clean. Most of the work was there.
+
+<br>
+
+---
+
+<sub><samp>07 / PRINCIPLES</samp></sub>
+
+<samp>i.</samp> &nbsp; Build before you overthink.<br>
+<samp>ii.</samp> &nbsp; Understand the abstraction before depending on it.<br>
+<samp>iii.</samp> &nbsp; A working system teaches more than a perfect plan.<br>
+<samp>iv.</samp> &nbsp; If you can't explain the architecture, you don't own it.<br>
+<samp>v.</samp> &nbsp; The model is one component. Treat it like one.
+
+<br>
+
+---
+
+<sub><samp>08 / ACTIVITY</samp></sub>
+
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=NikhilNWakode&show_icons=true&hide_border=true&hide_rank=true&hide_title=true&bg_color=0A0A0A&text_color=A8A8A8&icon_color=B8A47A&title_color=F3F0E8" height="140" alt="GitHub stats" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NikhilNWakode&bg_color=0A0A0A&color=A8A8A8&line=B8A47A&point=F3F0E8&area=false&hide_border=true&hide_title=true&custom_title=%20" width="100%" alt="Contribution graph" />
+
+<br>
+
+---
+
+<sub><samp>09 / CONTACT</samp></sub>
+
+### If you're working on retrieval, agents, or AI products that need real engineering underneath — write to me.
+
+<samp><a href="mailto:wakode333nikhil@gmail.com">wakode333nikhil@gmail.com</a></samp>
+
+<br>
+
+<sub><samp>NW &nbsp;—&nbsp; END OF FILE</samp></sub>
